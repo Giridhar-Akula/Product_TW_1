@@ -13,8 +13,15 @@ function loginForm(){
         return false;
     }
 
+    if (email && password != ""){
+        //Write a Program for Authentication
+        //I am Giridhar Just Writing an Alert message just for Functionality
+        alert("Login Successfully")
+    }
+
+
 
 }
-function myfunction(){
-    alert("Login Successfully");
-}
+// function myfunction(){
+//     alert("Login Successfully");
+// }

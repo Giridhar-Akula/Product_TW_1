@@ -10,9 +10,9 @@
     
     <link href="login.css" rel="stylesheet">
     
-     <title>Login - Tuition World</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <title>Login - Tuition World</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
 
   <!-- Favicons -->
   <link href="assets/img/tw1.png" rel="icon">
@@ -37,7 +37,7 @@
             </form>
         </div>
         <div class="form-container sign-in-container">
-            <form id="MyForm" method="post" action="./index.html" onsubmit="return myfunction()">
+            <form id="MyForm" method="post" action="./index.html" onsubmit="return loginForm()">
                 <h1>Login in</h1>
                 <div class="social-container">
                     <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
@@ -48,7 +48,8 @@
                 <input class="form-control" type="email" id="email" placeholder="Email" />
                 <input class="form-control" type="password" id="password" placeholder="Password" />
                 <a href="#">Forgot your password?</a>
-                <button class="signincss" id="sighIn" onclick="loginForm()" >Sign In</button> 
+                <button class="signincss" id="sighIn" >Sign In</button> 
+                <!--Naresh You did a Mistake in Above line i.e, onclick="loginForm()-->
             </form>
         </div>
         <div class="overlay-container">
